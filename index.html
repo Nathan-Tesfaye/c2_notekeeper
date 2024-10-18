@@ -7,7 +7,7 @@
 
     <link rel="stylesheet" href="style.css">
 
-    <script defer src="main.js"></script>
+    <script defer src="app.js"></script>
 
     <title>Notekeeper</title>
 </head>
@@ -24,11 +24,13 @@
         <div class="add-notes">
             <form action="#" id="note-form">
                 <div class="input-group">
-                    <label for="note">Note</label>
+                    <label for="note-input">Note</label>
                     <textarea name="note" id="note-input" placeholder="Enter your note here"></textarea>
                 </div>
 
                 <input class="btn" type="submit" value="Add Note">
+
+                <input type="reset" value="clear" id="remove-btn">
             </form>
 
         </div>
